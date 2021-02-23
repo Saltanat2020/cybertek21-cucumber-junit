@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: Etsy search feature
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 13.597 s <<< FAILURE! - in Etsy search feature
+Etsy search feature.Etsy default title verification  Time elapsed: 7.216 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "user should see Etsy title as" is undefined. You can implement it using the snippet(s) below:
+
+@Then("user should see Etsy title as")
+public void user_should_see_etsy_title_as() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
